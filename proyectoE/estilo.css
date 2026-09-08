@@ -1,0 +1,118 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e63626;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#encabezado {
+    font-family: 'fantasy';
+    font-size: 60px;
+    margin: 0;
+}
+
+/* Estilo de botones */
+button {
+    background-color: #e63626;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b72f1f;
+}
+
+/* Mejoras en las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+table th {
+    background-color: #e63626;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #e63626;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos del contenedor de botones */
+#tablaEmpleado, #tablaEmpleado button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#tablaEmpleado button {
+    width: 180px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Formato de inputs */
+input[type="text"], input[type="password"], input[type="number"], input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+/* Formulario de inicio de sesión */
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+form h2 {
+    text-align: center;
+    color: #333;
+}
