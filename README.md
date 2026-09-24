@@ -1,4 +1,8 @@
+
 Sistema para Gimnasio SAYAGYM - Actualizado localmente
+=======
+Sistema para Gimnasio SAYAGYM - Actualizado por el equipo
+ correjida por el Santy
 
 ## Descripción del proyecto
 Es un sistema para el registro de usuarios y productos diseñado para facilitar la administración de cualquier gimnasio. En este caso, el proyecto se está adaptando específicamente para nuestro cliente: **SAYAGYM**.
