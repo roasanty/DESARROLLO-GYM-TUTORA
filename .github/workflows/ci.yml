@@ -21,7 +21,7 @@ jobs:
           php-version: '8.2'
 
       - name: Ejecutar pruebas (Validación de sintaxis PHP)
-        run: find . -name "*.php" -exec php -l {} \;
+        run: php -l error2.php" -exec php -l {} \;
 
       - name: Generar artefacto del proyecto (Actividad 5)
         uses: actions/upload-artifact@v4
